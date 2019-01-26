@@ -308,6 +308,7 @@ do
 			echo "# next page of results link missing" >&2
 		fi
 		rm -f $TMPFILE
+		sleep $WAIT
 		break
 	fi
 

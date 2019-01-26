@@ -1,0 +1,7 @@
+arbre
+feuille
+maison
+Je suis content
+chaise
+table
+parquet

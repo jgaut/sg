@@ -259,7 +259,7 @@ do
 	 start="&start=$(( i * 10 ))"
 	fi
 
-	URL="http://$GOOGLE/search?q=$query$country$start&num=$NUMRESULTS"
+	URL="http://$GOOGLE/search?q=$query"
 
 	if (( $COMMENTS )); then
 		echo "# $URL" >&2
@@ -313,6 +313,7 @@ do
 
 
 	#rm -f $TMPFILE
+	echo $WAIT
 	sleep $WAIT
 done
 }
